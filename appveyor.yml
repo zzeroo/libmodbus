@@ -3,7 +3,7 @@ image: Visual Studio 2015
 clone_folder: c:\libmodbus-src
 clone_depth: 1
 
-init:
+before_build:
   - cd c:\libmodbus-src\src\win32
   - cscript configure.js
 
