@@ -6,6 +6,6 @@ clone_depth: 1
 before_build:
   - cd c:\libmodbus-src\src\win32
   - cscript configure.js
-  - devenv /Upgrade modbus.vcproj
+  - "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe" /upgrade modbus.vcproj
 
 
