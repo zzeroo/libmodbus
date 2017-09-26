@@ -7,6 +7,4 @@ before_build:
   - cd c:\libmodbus-src\src\win32
   - cscript configure.js
   - call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe" /upgrade modbus.vcproj
-
-build:
-    project: modbus.sln
+  - del c:\libmodbus-src\src\win32\modbus.vcproj
