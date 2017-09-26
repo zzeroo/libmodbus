@@ -1,4 +1,4 @@
-image: Visual Studio 2015
+os: Previous Visual Studio 2013
 
 clone_folder: c:\libmodbus-src
 clone_depth: 1
