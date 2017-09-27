@@ -8,6 +8,3 @@ before_build:
   - cscript configure.js
   - call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe" /upgrade modbus-9.sln
 
-build:
-    project: modbus-9.sln
-
